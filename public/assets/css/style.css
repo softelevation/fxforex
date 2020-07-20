@@ -1,0 +1,622 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/oswald/Oswald-Regular.eot');
+    src: url('../fonts/oswald/Oswald-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/oswald/Oswald-Regular.woff2') format('woff2'), url('../fonts/oswald/Oswald-Regular.woff') format('woff'), url('../fonts/oswald/Oswald-Regular.ttf') format('truetype'), url('../fonts/oswald/Oswald-Regular.svg#Oswald-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/oswald/Oswald-Medium.eot');
+    src: url('../fonts/oswald/Oswald-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/oswald/Oswald-Medium.woff2') format('woff2'), url('../fonts/oswald/Oswald-Medium.woff') format('woff'), url('../fonts/oswald/Oswald-Medium.ttf') format('truetype'), url('../fonts/oswald/Oswald-Medium.svg#Oswald-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/oswald/Oswald-Bold.eot');
+    src: url('../fonts/oswald/Oswald-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/oswald/Oswald-Bold.woff2') format('woff2'), url('../fonts/oswald/Oswald-Bold.woff') format('woff'), url('../fonts/oswald/Oswald-Bold.ttf') format('truetype'), url('../fonts/oswald/Oswald-Bold.svg#Oswald-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/oswald/Oswald-Light.eot');
+    src: url('../fonts/oswald/Oswald-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/oswald/Oswald-Light.woff2') format('woff2'), url('../fonts/oswald/Oswald-Light.woff') format('woff'), url('../fonts/oswald/Oswald-Light.ttf') format('truetype'), url('../fonts/oswald/Oswald-Light.svg#Oswald-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/oswald/Oswald-SemiBold.eot');
+    src: url('../fonts/oswald/Oswald-SemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/oswald/Oswald-SemiBold.woff2') format('woff2'), url('../fonts/oswald/Oswald-SemiBold.woff') format('woff'), url('../fonts/oswald/Oswald-SemiBold.ttf') format('truetype'), url('../fonts/oswald/Oswald-SemiBold.svg#Oswald-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/oswald/Oswald-ExtraLight.eot');
+    src: url('../fonts/oswald/Oswald-ExtraLight.eot?#iefix') format('embedded-opentype'), url('../fonts/oswald/Oswald-ExtraLight.woff2') format('woff2'), url('../fonts/oswald/Oswald-ExtraLight.woff') format('woff'), url('../fonts/oswald/Oswald-ExtraLight.ttf') format('truetype'), url('../fonts/oswald/Oswald-ExtraLight.svg#Oswald-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/OpenSans-Bold.eot');
+    src: url('../fonts/opensans/OpenSans-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans/OpenSans-Bold.woff2') format('woff2'), url('../fonts/opensans/OpenSans-Bold.woff') format('woff'), url('../fonts/opensans/OpenSans-Bold.ttf') format('truetype'), url('../fonts/opensans/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/OpenSans-Regular.eot');
+    src: url('../fonts/opensans/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans/OpenSans-Regular.woff2') format('woff2'), url('../fonts/opensans/OpenSans-Regular.woff') format('woff'), url('../fonts/opensans/OpenSans-Regular.ttf') format('truetype'), url('../fonts/opensans/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/OpenSans-Light.eot');
+    src: url('../fonts/opensans/OpenSans-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans/OpenSans-Light.woff2') format('woff2'), url('../fonts/opensans/OpenSans-Light.woff') format('woff'), url('../fonts/opensans/OpenSans-Light.ttf') format('truetype'), url('../fonts/opensans/OpenSans-Light.svg#OpenSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/OpenSans-SemiBold.eot');
+    src: url('../fonts/opensans/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans/OpenSans-SemiBold.woff2') format('woff2'), url('../fonts/opensans/OpenSans-SemiBold.woff') format('woff'), url('../fonts/opensans/OpenSans-SemiBold.ttf') format('truetype'), url('../fonts/opensans/OpenSans-SemiBold.svg#OpenSans-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/OpenSans-ExtraBold.eot');
+    src: url('../fonts/opensans/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans/OpenSans-ExtraBold.woff2') format('woff2'), url('../fonts/opensans/OpenSans-ExtraBold.woff') format('woff'), url('../fonts/opensans/OpenSans-ExtraBold.ttf') format('truetype'), url('../fonts/opensans/OpenSans-ExtraBold.svg#OpenSans-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Oswald';
+    font-weight: normal;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #222;
+}
+
+a {
+    outline: none !important;
+    color: #007095;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3baff7;
+    text-decoration: none;
+}
+
+img {
+    border: 0 none !important;
+    outline: none !important;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Oswald';
+    font-weight: normal;
+    color: #222;
+}
+
+.btn {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald';
+    font-weight: normal;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.6);
+    font-family: 'Open Sans';
+    font-weight: normal;
+    position: sticky;
+    z-index: 1001;
+    top: 0;
+}
+
+header nav.navbar {
+    padding: 0 20px;
+}
+
+.navbar-brand {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+header nav.navbar ul.navbar-nav li a.nav-link {
+    color: #fff;
+    padding: 12px 16px;
+}
+
+header nav.navbar ul.navbar-nav li a.nav-link:hover {
+    color: #74BEEC;
+}
+
+header nav.navbar ul.navbar-nav li.different-back a.nav-link {
+    background: #000;
+}
+
+.banner-top-section {
+    background: url(../images/main-banner.jpg) no-repeat top center / cover;
+    height: 790px;
+    width: 100%;
+}
+
+.banner-top-section:before {
+    content: "";
+    background-color: rgba(59, 61, 69, .1);
+    position: absolute;
+    top: 48px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 790px;
+}
+
+form.top-select-form {
+    margin-left: 30px;
+}
+
+.select-box-top {
+    width: 140px;
+    position: relative;
+}
+
+.select-box-top select {
+    display: none;
+}
+
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 17px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 11px;
+}
+
+.select-items div,
+.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+.select-items {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.banner-content {
+    width: 100%;
+    text-align: center;
+    margin-top: 300px;
+}
+
+h1 {
+    color: #2D8BC8;
+    font-size: 35px;
+    margin-bottom: 0;
+    font-weight: 100;
+    line-height: 49px;
+    letter-spacing: 1px;
+}
+
+h1 span {
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 78px;
+}
+
+.btn-trading {
+    color: #fff;
+    background: #2D8BC8;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 35px;
+    padding: 13px 40px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border: 0 none;
+    cursor: pointer;
+}
+
+.btn-trading:hover {
+    background: #3baff7;
+}
+
+.banner-content p {
+    color: #fff;
+    text-shadow: 1px 1px 5px #000;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.banner-content p a {
+    text-decoration: underline;
+    text-shadow: 1px 1px #000;
+    font-weight: normal;
+}
+
+.banner-content p a:hover {
+    text-decoration: none;
+}
+
+.trading-full-wrapper>.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.trading-full-wrapper>.row>div {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.trading-full-wrapper .column-side {
+    background-color: #3b3d45;
+}
+
+.fw>img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.content-wrapper {
+    background-color: rgba(59, 61, 69, .7);
+    transition: all .5s ease-in-out 0s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-wrapper>div {
+    width: 80%;
+    color: #fff;
+}
+
+.content-wrapper h2 {
+    font-size: 3.8vw;
+    line-height: 1;
+}
+
+.content-wrapper p {
+    font-size: 22px;
+    width: 50%;
+    margin: 2vw auto;
+    color: #fff;
+}
+
+.content-wrapper p a {
+    text-decoration: underline;
+    text-shadow: 1px 1px #000;
+    font-weight: normal;
+}
+
+.content-wrapper p a:hover {
+    text-decoration: none;
+}
+
+.clear-simple {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 35px;
+    font-size: 18px;
+    padding: 9px 40px;
+    letter-spacing: 2px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.clear-simple:hover {
+    color: #fff;
+    background: #007095;
+}
+
+.content-wrapper p.risk-warning {
+    font-size: 16px;
+    text-shadow: 1px 1px 5px #000;
+    letter-spacing: 1px;
+}
+
+.btn-open-account {
+    margin-top: 40px;
+}
+
+.btn-open-account .btn-login {
+    display: inline-block;
+}
+
+.btn-open-account .btn-login+.btn-login {
+    margin-left: 25px;
+}
+
+.turquoise-bg {
+    background-color: #007095;
+    border: 1px solid #fff;
+    border-radius: 35px;
+    font-size: 18px;
+    padding: 9px 40px;
+    letter-spacing: 2px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.turquoise-bg:hover {
+    color: #fff;
+    background: transparent;
+    border-color: #fff;
+}
+
+.know-us-container {
+    background: #f4f8fb;
+    padding: 80px 0;
+}
+
+.know-us-container h2 {
+    color: #3b3d45;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.know-us-container h2 span {
+    font-weight: bold;
+}
+
+.dark-box-inner {
+    text-align: center;
+}
+
+.dark-box-content img {
+    max-height: 120px;
+    margin-bottom: 15px;
+}
+
+.dark-box-content h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dark-box-content p {
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.learning-section {
+    background: #8fc3d3;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.learning-section h2 {
+    color: #007095;
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.learning-section h2 span {
+    font-weight: bold;
+}
+
+.learning-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #fff;
+    text-shadow: 1px 1px 3px #007095;
+    width: 70%;
+    margin: 2vw auto;
+}
+
+.trader-section {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.trader-section h2 {
+    color: #3b3d45;
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.trader-section h2 span {
+    font-weight: bold;
+}
+
+.trader-content {
+    text-align: center;
+}
+
+.trader-content img {
+    margin-bottom: 15px;
+}
+
+.trader-content h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.trader-content p {
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.ready-now-banner {
+    position: relative;
+}
+
+.ready-inner-content {
+    background-color: rgba(59, 61, 69, .7);
+    transition: all .5s ease-in-out 0s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.ready-inner-content h2 {
+    font-size: 3.8vw;
+    line-height: 1;
+}
+
+.ready-inner-content p {
+    font-size: 16px;
+    margin: 2vw auto;
+    color: #fff;
+}
+
+.ready-inner-content p a {
+    text-decoration: underline;
+    text-shadow: 1px 1px #000;
+    font-weight: normal;
+}
+
+.ready-inner-content p a:hover {
+    text-decoration: none;
+}
+
+.footer-main-section {
+    background-color: #3b3d45;
+}
+
+.footer-main-section {
+    padding: 50px 0;
+}
+
+.footer-main-section h2 {
+    font-size: 28px;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+}
+
+.awards-wrapper {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.awards-images {
+    margin: 0 15px;
+}
+
+.awards-images>img {
+    max-height: 68px;
+}
+
+.bottom-social-box {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bottom-social-box>div {
+    margin: 0 15px;
+    font-size: 25px;
+}
+
+.bottom-social-box>div a {
+    color: #828282;
+}
+
+.bottom-social-box>div a:hover {
+    color: #fff;
+}
+
+.footer-bottom-section {
+    background-color: #3b3d45;
+    padding: 25px 0;
+    border-top: 1px solid #54555c;
+}
+
+.footer-bottom-section p {
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.footer-bottom-section p a {
+    color: #828282;
+    text-decoration: underline;
+}
+
+.footer-bottom-section p a:hover {
+    color: #fff;
+    text-decoration: none;
+}

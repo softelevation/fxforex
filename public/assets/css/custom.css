@@ -1,0 +1,19 @@
+div.nk-sidebar li a.active{
+    color: #1E9379;
+    text-decoration: none;
+    background: #394351;
+}
+div.nav-header{background: #fff;}
+td a.btn{line-height:20px;}
+td .btn{height:30px;}
+
+
+div.header{position:fixed;}
+div.container-fluid{margin-top:70px;}
+a.btn-danger {
+    background-color: #dc3545;
+}
+a.btn.btn-success,a.btn.btn-danger{
+    color:aliceblue;
+}
+.card-body.box-profile{border-top: 3px solid #007bff;}

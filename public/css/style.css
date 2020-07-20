@@ -1,0 +1,685 @@
+
+body { color:#37474f; font-family: 'Roboto', sans-serif;}
+
+header {
+    background: transparent;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    position: fixed;
+    z-index: 1001;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+.know-us-container h2 , .trader-section h2 , section.trading-section h2 , section.online-trading-section h2 {
+    color: #86d003 !important;
+
+}
+.online-trading-icon {
+    text-align: center;
+}
+section.online-trading-section p {
+    margin-bottom: 30px;
+}
+section.deposits-section img {
+    padding: 50px 0;
+}
+section.online-trading-section a.learn-more-button {
+    background: #86d003;
+    color: #fff;
+    border-radius: 4px;
+    padding: 12px 20px;
+}
+section.deposits-section {
+    padding: 60px 0;
+    text-align: center;
+}
+section.deposits-section h2{
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #86d003 !important;
+}
+section.online-trading-section .row {
+    margin: 60px 0;
+}
+.online-trading-icon i.fab.fa-btc {
+    margin: 0 auto 20px !important;
+   font-size: 33px;
+    border: 1px solid #000;
+    display: table;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+.online-trading-icon span {
+    font-size: 28px;
+    margin-bottom: 24px;
+    float: left;
+    width: 100%;
+    color: #3b3d45;
+}
+header nav.navbar ul.navbar-nav li a.nav-link:hover {
+    color: #86d003;
+}
+.online-trading-icon i.fab.fa-btc {
+    width: auto;
+    margin-bottom: 20px;
+    font-size: 33px;
+    border: 1px solid #000;
+    display: table;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+section.online-trading-section h2 { font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    text-align: center;}
+    
+    section.online-trading-section p.p-trading {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+section.online-trading-section {
+    background: #ececf1;
+    padding: 80px 0;
+}
+.btn-trading {
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 12px 20px;
+    width: 172px;
+}
+header nav.navbar {
+    background: transparent !important;
+}
+header nav.navbar.sticky {
+    background: #fff !important;
+    box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.5);
+}
+.know-us-container {
+    background: #fff;
+    
+}
+header nav.navbar.sticky  ul.navbar-nav li a.nav-link{
+color: #000 !important;
+}
+
+header nav.navbar img.logo-1 , header nav.navbar.sticky  img.logo-2 {
+    display: none;
+}
+header nav.navbar.sticky  img.logo-1 { display: block; }
+.carousel-item p {
+    color: #fff;
+    text-shadow: 1px 1px 5px #000;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.col-md-6.trader-conten-image img {
+    text-align: center;
+    margin: 0px auto;
+    display: table;
+    width: 80%;
+}
+.trader-section {
+    padding: 80px 0;
+    background: #ececf1;
+}
+.col-md-6.trader-content {
+    margin-top: 90px;
+    text-align: left;
+}
+.col-md-6.trader-content h5 {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 250;
+    color:#3b3d45;
+}
+.trading-inner-cl img {
+  
+    margin-bottom: 30px;
+}
+.trading-inner-cl {
+    padding: 0 40px;
+}
+.trading-inner-cl p {
+    font-size: 16px;
+    line-height: 26px;
+}
+.trading-inner-cl h4 {
+    color: #3b3d45;
+    font-size: 26px;
+    line-height: 40px;
+}
+section.trading-section {
+    background: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+section.trading-section h2 {
+    color: #3b3d45;
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 60px;
+    text-align: center;
+}
+section.trader-section .row {
+    margin-bottom: 50px;
+}
+.col-md-6.trader-content p {
+    font-size: 16px;
+    line-height: 26px;
+}
+.carousel:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    background: #000000a6;
+    z-index: 1;
+}
+
+.carousel-item p a {
+    text-decoration: underline;
+    text-shadow: 1px 1px #000;
+    font-weight: normal;
+}
+.banner-content {
+    margin-top: 0 !important;
+    position: absolute;
+    top: 140px;
+    left: 0;
+    z-index: 1;
+}
+.carousel-item {
+    height: 600px;
+}
+.carousel-item img {
+    width: 100% !important;
+    height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+main.py-4 {
+    margin-top: 50px;
+}
+h1, h2, h3, h4, h5, h6 , p {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+   
+    color: #86d003;
+   
+}
+a:hover {
+    color: #364550;
+    text-decoration: none;
+    text-shadow: 0px 0px #000;
+}
+.clear-simple:hover {
+    color: #fff;
+    background: #86d003;
+}
+.card-left h4 {
+    margin-bottom: 20px;
+    font-weight:500;
+}
+.card {
+    border: none;
+}
+.card-header {
+    background-color: transparent;
+    border-bottom: 0px solid rgba(0,0,0,.125);
+    padding: 0;
+}
+.card-header h3 {
+    margin-bottom: 20px;
+    font-weight:500;
+}
+main.py-4 .card-body label.col-form-label.text-md-right {
+    display: none;
+}
+main.py-4 .card-body .form-control {
+    height: 56px;
+    color: #37474f;
+    font-weight: 500;
+    border-color: #37474f;
+}
+main.py-4 .card-body .iti.iti--allow-dropdown {
+    width: 100%;
+}
+main.py-4 .card-body button.btn.btn-primary {
+    background: #86d003;
+    border-color: #86d003;
+    font-size: 20px;
+    padding: 6px 25px;
+    margin: 15px auto 0;
+    display: table;
+}
+
+.card-body {
+   
+    padding: 0;
+}
+
+.card-footer-left .form-check-inline {
+    position: relative;
+    padding-left: 30px;
+}
+.card-footer-left input.form-check-input {
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 15px;
+    height: 15px;
+   border: 1px solid #888;
+    outline: none;
+}
+.card-footer-left  a , .card-footer-left p a {
+    color: #86d003;
+    text-decoration: underline;
+    
+}
+.card-footer-left .form-check-inline p {
+    font-size: 14px;
+    color: #888;
+}
+
+.card-footer-left p {
+    color: #37474f;
+}
+.card-footer-left.col-md-9 {
+    margin-top: 25px;
+}
+.turquoise-bg {
+    background-color: #86d003;
+    border: 1px solid #86d003;
+   
+}
+.banner {
+    width: 100%;
+    float: left;
+    background-image: url(../assets/images/stock-trading-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 130px;
+    text-align: center;
+    color: #fff;
+    margin-top: -75px;
+}
+.banner h3 {
+    font-size: 46px;
+    text-shadow: 1px 1px 5px black;
+}
+.banner .banner-a {
+    background: rgba(255, 255, 255, 0.32);
+    border: 1px solid #86d003;
+    font-size: 20px;
+    padding: 6px 25px;
+    margin: 15px auto 40px;
+    display: table;
+    color: #fff;
+    border-radius: 50px;
+}
+.col-md-8.login-page {
+    margin: 50px 0;
+    background: rgba(8, 85, 180, 0.16);
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border: 1px solid #ccc;
+}
+.col-md-8.login-page .card {
+    background: transparent;
+}
+.col-md-8.login-page .card p.form-title {
+    float: left;
+    font-size: 28px;
+    font-weight: 700;
+    width: auto;
+    clear: right;
+   
+}
+span.required {
+    float: right;
+    text-align: right;
+    margin-top: -44px;
+}
+.login-section-right h5 {
+    color: #222;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.login-section-right p {
+    font-size: 22px;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+.col-md-8.login-page .card-body {
+    margin-top: 20px;
+}
+.col-md-8.login-page .card-body input {
+    font-size: 20px;
+    height: 50px;
+    color: rgba(0,0,0,.75);
+    font-weight: normal;
+    border:1px solid #ccc;
+}
+
+.col-md-8.login-page .form-check {
+    float: right;
+}
+.col-md-8.login-page .form-check input#remember {
+    height: auto;
+}
+.col-md-8.login-page  .form-group a.btn.btn-link {
+    padding: 0;
+    color:#86d003;
+}
+.col-md-8.login-page  button.btn.btn-primary {
+    margin: 0;
+    display: inline-block;
+    float: left;
+    border-radius: 50px;
+    padding: 6px 35px !important;
+}
+.btn-trading:hover {
+    background: #364550;
+}
+.col-md-8.login-page a#btn-open-account {
+    color: #fff;
+    margin: 0 auto 50px;
+    display: table;
+    background: #86d003;
+    border-color: #86d003;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 6px 35px !important;
+}
+.learning-section {
+    background: #364550;
+}
+.learning-section h2 {
+    color: #fff;
+  
+}
+.banner-top-section {
+    background: url(../assets/images/banner.png) no-repeat top center / cover;
+    height: 580px;
+}
+li.nav-item a.navbar-brand {
+    display: none;
+}
+.banner-content {
+   
+    margin-top: 150px;
+}
+.banner-content h1 {
+    color: #fff;
+}
+.btn-trading {
+  
+    background: #86d003;
+   
+}
+header nav.navbar {
+    padding: 0 20px;
+    background:#101010;
+}
+ul.navbar-nav.mr-auto {
+ 
+    margin: 0px auto;
+}
+
+.my-account-page {
+    background: #f4f8fb;
+    padding-top: 30px;
+    float: left;
+    width: 100%;
+    padding-bottom: 70px;
+}
+section.footer-main-section, .footer-bottom-section {
+    float: left;
+    width: 100%;
+}
+.my-account-page .side-bar {
+    border: solid 1px #b6b6b6;
+    background: #fff;
+}
+.my-account-page ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+.side-bar ul li a {
+    font-size: 0.750em;
+     text-transform: uppercase;
+    color: #1d1d1b;
+    text-decoration: none;
+    background: #d1d1d1;
+    border-bottom: solid 1px #b6b6b6;
+    padding: 0 0 0 10px;
+    height: 23px;
+    line-height: 25px;
+    display: block;
+    font-weight: 600;
+}
+.side-bar li ul.sub li a {
+    display: block;
+    color: #1d1d1b;
+ font-size: 0.875em;
+    text-transform: capitalize;
+    font-weight: normal !important;
+    text-decoration: none;
+    padding: 0 0 0 50px;
+    height: 36px;
+    line-height: 36px;
+    border: none;
+    border-bottom: solid 1px #b6b6b6;
+   background: #fff;
+    text-indent: 9px;
+    position: relative;
+}
+.my-account-page .ContentPanel {
+    background: #fff;
+    border: solid 1px #b6b6b6;
+    padding: 15px;
+}
+.my-account-page .account_steps_tab {
+    padding: 2%;
+    color: #d4d4d4;
+    float: left;
+    width: 29.333%;
+    opacity: 1;
+}
+.my-account-page  .step_n {
+    font-size: 2.688em;
+    float: left;
+    display: inline-block;
+    vertical-align: bottom;
+    font-weight: 800;
+    padding: 10px 3px 10px 0;
+    line-height: 34px;
+}
+.step_name {
+    font-size: 1.125em;
+    font-weight: bold;
+    float: left;
+    display: inline-block;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-top: 9px;
+   
+}
+.account_steps_tab.current {
+    background: #b6b6b6;
+    color: #1d1d1b;
+    opacity: 1;
+}
+.hr_wide_top {
+    border: solid #b6b6b6;
+    border-width: 5px 0 0;
+    margin: 0 0 20px 0;
+    float: left;
+    width: 100%;
+}
+.form-group {
+    float: left;
+    width: 100%;
+}
+.form-group label {
+    float: left;
+    color: #3b3d45;
+    margin-right: 5px;
+    font-size: 0.88em;
+    margin-top: 5px;
+}
+.form-group p {
+    float: left;
+    width: 100%;
+    color: #3b3d45;
+    font-size: 14px;
+}
+select#date, select#month, select#year {
+    float: left;
+    width: 25%;
+    margin-right: 5px;
+}
+form.content-panel-form {
+    width: 500px;
+    display: table;
+    margin: 0px auto;
+}
+.ContentPanel h3 {
+    float: left;
+    width: 100%;
+    margin: 0 0 30px;
+    font-size: 22px;
+    color: #3b3d45 !important;
+    font-weight: 800;
+}
+.req_a {
+    color: #d30009;
+    position: relative;
+    top: -3px;
+    font-family: 'ubuntu';
+}
+hr.mt_10.mb_10{
+    clear: both;
+    height: 0;
+    border: solid 1px #b6b6b6;
+    border-width: 1px 0 0;
+    margin: 20px 0 10px 0;
+}
+.form-group.full-width label {
+    float: left;
+    width: 100%;
+}
+.form-right {
+    float: right;
+    width: 50%;
+}
+.form-left {
+    float: left;
+    width: 50%;
+}
+.form-group.full-width input[type="checkbox"] {
+    margin-right: 5px;
+}
+.form-group.full-width {
+    margin-bottom: 50px !important;
+    padding-top: 15px;
+}
+a.form-button  ,form.content-panel-form button.btn.btn-default{
+    background: #0855b4 !important;
+    text-transform: uppercase !important;
+    color: #fff !important;
+    text-align: center;
+    -moz-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+    border: none !important;
+    border-top: solid 1px #0855b4 !important;
+    border-bottom: solid 1px #47958f !important;
+    float: none;
+    padding: 10px 26px;
+    font-size: 0.9em !important;
+    text-shadow: none !important;
+    margin: 0px auto;
+    display: table;
+}
+.my-account-page .account_steps_tab:first-child {
+    margin-left: 0;
+}
+.my-account-page .account_steps_tab {
+    margin-left: 20px;
+}
+
+
+@media (max-width: 991px){
+.container {
+    max-width: 100%;
+}
+.side-bar li ul.sub li a {
+    font-size: 12px;
+}
+
+}
+@media (max-width: 767px){
+    .my-account-page .ContentPanel {
+         margin-top: 40px;
+    }
+    form.content-panel-form {
+        width: 100%;
+       
+    }
+    select#date, select#month, select#year {
+         width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .form-left , .form-right {
+        width: 100%;
+    }
+    .form-group.full-width {
+        margin-bottom: 32px !important;
+      
+    }
+}
+@media (max-width: 480px){
+.my-account-page .account_steps_tab {
+    padding: 2%;
+    width: 100%;
+    margin: 0 !important;
+}
+}
+
+
+.select-box-top {
+    font-size: 16px;
+}
+.col-md-6.column-side {
+    background: #364550;
+}
+.turquoise-bg {
+    background-color: #86d003;
+    border: #86d003;
+}
+
