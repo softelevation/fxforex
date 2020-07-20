@@ -25,7 +25,7 @@
                @guest
 
                  @if (Route::has('register'))
-                    <li class="nav-item different-back">
+                    <li class="nav-item @if(Request::segment(1) != '') different-back @endif">
                       <a class="nav-link" href="{{ route('register') }}">{{ __('Open Account') }}</a>
                     </li>
                   @endif

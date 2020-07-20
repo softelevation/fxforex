@@ -46,8 +46,10 @@ Route::group(['middleware' => 'admin'], function () {
     
 });
 
+Route::get('/', 'HomeController@admin_dashboard')->name('home');
+
 Route::group(['middleware' => 'users'], function () {
-    Route::get('/', 'HomeController@index')->name('home');
+    // Route::get('/', 'HomeController@index')->name('home');
     Route::get('/home', 'HomeController@admin_dashboard')->name('admin_dashboard');
     Route::get('/myaccount', 'HomeController@myaccount')->name('myaccount');  
 });

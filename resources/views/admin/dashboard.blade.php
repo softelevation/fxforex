@@ -3,29 +3,7 @@
 {{--@include('admin.common.sidebar')--}}
  
 
-  <!---<div class="container-fluid">
-    
-        <div class="d-sm-flex align-items-center justify-content-between mb-4">
-          <h1 class="h3 mb-0 text-gray-800">Dashboard 
-          <span style="text-transform:capitalize;font-size: 28px;"> ( {{{ isset(Auth::user()->name) ? (Auth::user()->name).' '.(Auth::user()->second_name) : Auth::user()->email }}} ) </span></h1>
-         
-        </div>
-  </div>   --->
- <!----section class="banner-top-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="banner-content">
-                    <h1>Discover the world of investing<br><span>Trade Your Way</span><br>CFDs on Forex, Indices, Commodities, Shares &amp; Cryptocurrencies</h1>
-                    <a href="javascript:void(0);">
-                        <button class="btn-trading">Start Now</button>
-                    </a>
-                    <p><a href="javascript:void(0);">Risk Warning:</a> 75.59% of retail CFD accounts lose money </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>  ---> 
+ 
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
